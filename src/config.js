@@ -1,6 +1,7 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
-    REGION: "eu-west-1",BUCKET: "travellerapp-uploads"
+    REGION: "us-east-1",BUCKET: "travellerapp-uploads"
   },
   apiGateway: {
     REGION: "eu-west-1",
